@@ -1,0 +1,44 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;  
+}
+
+a{
+    color: #3366cc;
+}
+
+a:not(:hover){
+    text-decoration: none;
+}
+ /*************CABECALHO******************/
+.cabecalho{
+    padding: 12px 24px;
+    background-color: #eaecf0;
+}
+.logo-figura{
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.logo-nome{
+    font-size: 25px;
+  margin: 0 12px;
+}
+.cabecalho-conteudo{
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+.figura-artigo{
+    text-align: center;
+}
+ /*************RODAPE******************/
+ .rodape{
+     padding: 12px 0;
+     background-color: #eaecf0;
+     text-align: center;
+ }
